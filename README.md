@@ -16,7 +16,6 @@ python ./train.py --dataset Abdomen --model SlimFormer --epoch 150
 
 ## 📚 Dataset
 This project uses the following publicly available abdominal CT segmentation datasets:
-This project utilizes the following publicly available abdominal CT segmentation datasets:
 
 - **AbdomenCT-1K**: A large-scale dataset, annotated with multiple abdominal organs for segmentation tasks.
 - **BTCV (Beyond the Cranial Vault Challenge)**: A collection of abdominal CT scans used in the **BTCV 2015 challenge**, designed for multi-organ segmentation and evaluation.
