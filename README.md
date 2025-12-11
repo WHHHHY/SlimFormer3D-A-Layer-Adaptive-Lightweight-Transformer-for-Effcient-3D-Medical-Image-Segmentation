@@ -4,7 +4,7 @@
 **Link:** [(https://papers.miccai.org/miccai-2025/paper/1666_paper.pdf)](https://papers.miccai.org/miccai-2025/paper/1666_paper.pdf)
 
 <p align="center">
-  <img src="framework.png" alt="Example Image" width="700">
+  <img src="framework.png" alt="Example Image" width="800">
 </p>
 
 ## 🏋️ Training
