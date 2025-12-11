@@ -8,6 +8,7 @@ To train the model on a selected dataset, run the following command:
 
 ```bash
 python ./train.py --dataset Abdomen --model SlimFormer --epoch 150
+```
 
 ## 📚 Dataset
 This project uses the following publicly available abdominal CT segmentation datasets:
