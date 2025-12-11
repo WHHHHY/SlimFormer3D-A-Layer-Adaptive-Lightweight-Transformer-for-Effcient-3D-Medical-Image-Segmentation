@@ -3,6 +3,10 @@
 **Title:** *SlimFormer3D-A-Layer-Adaptive-Lightweight-Transformer-for-Effcient-3D-Medical-Image-Segmentation*  
 **Link:** [(https://papers.miccai.org/miccai-2025/paper/1666_paper.pdf)](https://papers.miccai.org/miccai-2025/paper/1666_paper.pdf)
 
+<p align="center">
+  <img src="images/example.png" alt="Example Image" width="400">
+</p>
+
 ## 🏋️ Training
 To train the model on a selected dataset, run the following command:
 
