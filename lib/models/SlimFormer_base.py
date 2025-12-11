@@ -187,7 +187,7 @@ class EncoderStage(nn.Module):
         return x_down, x_skip
 
 
-class PMFSNet(nn.Module):
+class SlimFormer(nn.Module):
     def __init__(self,
                  in_channels=1,
                  out_channels=35,
@@ -352,10 +352,11 @@ if __name__ == '__main__':
 
     x = torch.randn((1, 1, 96, 96, 96)).to(device)
 
-    model = PMFSNet(in_channels=1, out_channels=4,
+    model = SlimFormer(in_channels=1, out_channels=4,
                     patch_size=2, base_channels=48, num_heads=(4, 8, 16, 32),
                     token_mixer=ClassAttention).to(device)
     y = model(x)
     print("Input size:", x.size())
     print("Output size:", y.size())
     print("Params: {:.6f}M".format(count_parameters(model)))
+
