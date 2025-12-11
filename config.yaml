@@ -1,0 +1,26 @@
+experimentName: Abdomen
+searchSpaceFile: search_space_tooth.json
+trialCommand: python train.py -d "SlimFormer" -m "SlimFormer" 
+trialCodeDirectory: ./
+trialGpuNumber: 1
+experimentWorkingDirectory: ./log
+logLevel: info
+trialConcurrency: 4
+
+
+tunerGpuIndices: [0, 1, 2, 3]
+
+
+maxExperimentDuration: 2d
+maxTrialNumber: 200
+
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+
+trainingService:
+  platform: local
+  gpuIndices: [0, 1, 2, 3]
+  maxTrialNumberPerGpu: 1
+  useActiveGpu: True
